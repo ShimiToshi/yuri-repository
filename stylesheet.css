@@ -1,0 +1,256 @@
+
+.all-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.page-wrapper{
+    display: flex;
+    
+    /* margin: 0 auto; */
+}
+
+/* main--------------------------------------------- */
+.contents{
+    /* flex: 1 0 auto; */
+    /* display: flex; */
+    min-width: 900px;
+    width: 900px;
+    height: 2300px;
+    margin-right: 10px;
+    background: #ccc;
+    background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
+    position: relative;
+}
+
+
+/* topbanner--------------------------------------------- */
+.top-banner{
+    display: block;
+    width: 100%;
+    height: 200px;
+    /* background-image: url(img/topbanner.png); */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.top-banner img{
+    width: 100%;
+    height: 80%;
+}
+
+
+/* wrapper1 --------------------------------------------------*/
+.wrapper1{
+    margin: 10px;
+}
+.wrapper1-left{
+    display: inline-block;
+    margin-left:10px;
+}
+.wrapper1-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.job-offer{
+    width: 230px;
+    height: 340px;
+    border: solid black;
+    margin-bottom: 10px; 
+}
+
+.new-tweet{
+    width: 230px;
+    height: 540px;
+    border: solid black;
+    margin-bottom: 10px; 
+}
+
+.tweeter-img img{
+    width: 70%;
+}
+
+.shop-concept{
+    width: 600px;
+    height: 900px;
+    border: solid black;
+}
+
+.shop-img img{
+    width: 100%;
+}
+
+
+/* wrapper2 --------------------------------------------------*/
+.wrapper2{
+    /* display: block; */
+    width: 90%;
+    height: 400px;
+    border: solid black;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.menu-img{
+    width:50%;
+    display: inline-block;
+}
+.menu-content{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0 0 20px;
+}
+
+/* wrapper3 --------------------------------------------------*/
+.googlemap-url{
+    margin: 40px auto 0;
+
+    width: 90%;
+    height: 300px;
+    border: solid black;
+    
+}
+
+
+/* wrapper4 --------------------------------------------------*/
+.advertisement-center{
+    margin: 0 auto;
+    margin-top:50px;
+    width: 80%;
+    height: 100px;
+    background-color: #30b298;
+    color: white;
+}
+
+/* wrapper5 --------------------------------------------------*/
+.wrapper5{
+    margin-top: 30px; 
+}
+.sns-url ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+.sns-url ul li{
+    display: inline-block;
+    margin: 3px;
+    width: 20%;
+    height: 100px;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+#shop-btn img{
+    width: 100%;
+    /* background-size: 50%; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#facebook-btn{
+    background-image: url("img/facebook.jpg");
+    background-size: 80% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#instagram-btn{
+    background-image: url("img/instagram.png");
+    background-size: 80% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#portal-btn{
+    background-image: url("img/portalsite1.jpg");
+    background-size: 80% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* footer--------------------------------------------- */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    line-height: 3.0;
+    text-align: center;
+    color: white;
+
+}
+
+.url-font-color{
+    color: white;
+}
+
+
+/* sidebar--------------------------------------------- */
+.advertisement{
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    width: 140px;
+    height: 1950px;
+    color: #fff;
+    background: #30b298;
+}
+
+
+/* responsive--------------------------------------------- */
+/*------------------------------------------------------ */
+
+
+@media screen and (max-width: 670px){
+    *,
+    *::before,
+    *::after {
+    box-sizing: border-box;
+    }
+
+    /* .all-wrapper,.page-wrapper,.contents,.top-banner{
+        width: auto;
+    } */
+
+
+    /* body { -webkit-text-size-adjust:none; }  */
+
+     /* .top-banner{
+        width: auto;
+    } */
+
+    .concept-content p{
+        font-size: 25px;
+    }
+    body{
+        margin: 0;
+    }
+    .page-wrapper{
+        width:100%;
+    }
+    /* .contents{
+       
+    } */
+    .advertisement{
+        /* width: 50px; */
+    }
+    /* .wrapper1-left{
+        width:30%;
+    }
+    .googlemap-url{
+        margin: 10px;
+    }
+    .new-tweet{
+        width:30%;
+        margin: 10px;
+    }
+    .wrapper1-right{
+        width:30%;
+    }
+    */
+
+}
