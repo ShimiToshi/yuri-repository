@@ -1,3 +1,8 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
 
 .all-wrapper{
     display: flex;
@@ -15,8 +20,8 @@
 .contents{
     /* flex: 1 0 auto; */
     /* display: flex; */
-    min-width: 900px;
-    width: 900px;
+    min-width: 80%;
+    width: 80%;
     height: 2300px;
     margin-right: 10px;
     background: #ccc;
@@ -43,25 +48,26 @@
 /* wrapper1 --------------------------------------------------*/
 .wrapper1{
     margin: 10px;
+    display: flex;
 }
 .wrapper1-left{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
     margin-left:10px;
 }
 .wrapper1-right{
-    display: inline-block;
     vertical-align: top;
+    width: 65%;
 }
 
 .job-offer{
-    width: 230px;
     height: 340px;
     border: solid black;
     margin-bottom: 10px; 
 }
 
 .new-tweet{
-    width: 230px;
     height: 540px;
     border: solid black;
     margin-bottom: 10px; 
@@ -72,7 +78,6 @@
 }
 
 .shop-concept{
-    width: 600px;
     height: 900px;
     border: solid black;
 }
@@ -194,8 +199,8 @@ footer{
     position: -webkit-sticky;
     position: sticky;
     top: 10px;
-    width: 140px;
-    height: 1950px;
+    width: 20%;
+    height: 90vh;
     color: #fff;
     background: #30b298;
 }
@@ -224,10 +229,10 @@ footer{
     } */
 
     .concept-content p{
-        font-size: 25px;
+        font-size: 18px;
     }
     body{
-        margin: 0;
+        width: 100%;
     }
     .page-wrapper{
         width:100%;
@@ -236,7 +241,7 @@ footer{
        
     } */
     .advertisement{
-        /* width: 50px; */
+        width: 200px;
     }
     /* .wrapper1-left{
         width:30%;
